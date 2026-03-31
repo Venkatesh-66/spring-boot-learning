@@ -86,17 +86,6 @@ UserService service;
 
 ---
 
-# 🏗️ 5. Project Structure
-
-```text id="b3"
-src/
- ├── main/
- │   ├── java/        → Java code
- │   └── resources/   → config files
-```
-
----
-
 ## Common Packages:
 
 - controller → handles API requests
@@ -106,7 +95,7 @@ src/
 
 ---
 
-# 📦 6. pom.xml (Dependencies)
+# 📦 5. pom.xml (Dependencies)
 
 - Managed by Maven
 - Used to add external libraries
@@ -123,7 +112,7 @@ Example:
 
 ---
 
-# 🔧 7. application.properties
+# 🔧 6. application.properties
 
 - Used to configure application
 
@@ -144,7 +133,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/db
 
 ---
 
-# ▶️ 8. Main Class (Entry Point)
+# ▶️ 7. Main Class (Entry Point)
 
 ```java id="b6"
 @SpringBootApplication
@@ -166,7 +155,7 @@ public class App {
 
 ---
 
-# 🌐 9. REST API Basics
+# 🌐 8. REST API Basics
 
 ---
 
@@ -208,7 +197,7 @@ http://localhost:8080/hello
 
 ---
 
-# 🔗 10. How Spring Boot Works (Flow)
+# 🔗 9. How Spring Boot Works (Flow)
 
 1. Application starts
 2. Spring scans classes
@@ -220,7 +209,7 @@ http://localhost:8080/hello
 
 ---
 
-# 🔌 11. Embedded Server
+# 🔌 10. Embedded Server
 
 - Default: Tomcat
 - No need to install separately
@@ -231,7 +220,7 @@ http://localhost:8080/hello
 
 ---
 
-# 🧩 12. Important Annotations
+# 🧩 11. Important Annotations
 
 - @SpringBootApplication → main class
 - @RestController → API class
@@ -242,7 +231,7 @@ http://localhost:8080/hello
 
 ---
 
-# 🧠 13. Internal Working (Deep Understanding)
+# 🧠 12. Internal Working (Deep Understanding)
 
 - Spring scans your project
 - Identifies classes with annotations
@@ -253,7 +242,7 @@ http://localhost:8080/hello
 
 ---
 
-# ⚠️ 14. Common Mistakes
+# ⚠️ 13. Common Mistakes
 
 - Forgetting @RestController
 - Wrong URL mapping
