@@ -290,8 +290,23 @@ http://localhost:8080/hello
 
 ---
 
-# 💥 GOLDEN RULE
+# Important Annotations Basics
 
-👉 "Don’t just read — build and break things"
+## @SpringBootApplication
 
----
+- Entry point annotation
+- Combines:
+  - @Configuration
+  - @EnableAutoConfiguration
+  - @ComponentScan
+
+## @RestController
+
+- Marks class as REST API controller
+- Combines:
+  - @Controller
+  - @ResponseBody
+
+## @Autowired
+
+- Used for dependency injection
