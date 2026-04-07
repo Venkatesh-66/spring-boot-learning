@@ -17,13 +17,16 @@ Spring manages their lifecycle
 📌 Example
 
 ❌ Without IoC
+
 class Car {
     Engine engine = new Engine(); // tightly coupled
 }
+
 Car is dependent on Engine directly
 Hard to change or test
 
 ✅ With IoC
+
 class Car {
     Engine engine;
 
@@ -31,6 +34,7 @@ class Car {
         this.engine = engine;
     }
 }
+
 Car does NOT create Engine
 
 Spring will provide it
