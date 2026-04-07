@@ -53,7 +53,10 @@ Instead of creating it → Spring injects it
 📌 Example
 
 @Component
-class Engine {}
+class Engine {
+
+}
+
 @Component
 class Car {
 
@@ -105,7 +108,9 @@ A Bean is an object that is created and managed by the Spring container.
 
 📌 Example
 @Component
-class Engine {}
+class Engine {
+    
+}
 
 👉 This Engine becomes a Spring Bean
 
