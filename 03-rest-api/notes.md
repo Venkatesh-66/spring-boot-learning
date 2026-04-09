@@ -30,10 +30,15 @@ GET /users/1
 | PATCH  | Partial update | Update email |
 | DELETE | Remove data    | Delete user  |
 
-🔹 3. Basic Annotations
+# 🔷 Spring Boot REST API Notes
 
-✅ @RestController
+---
 
+## 🔹 3. Basic Annotations
+
+### ✅ @RestController
+
+```java
 @RestController
 public class UserController {
 }
@@ -41,10 +46,9 @@ public class UserController {
 👉 Returns JSON directly
 
 ✅ @RequestMapping
-
 @RequestMapping("/users")
 
-👉 Base URL
+👉 Base URL for all APIs in this controller
 
 🔹 4. GET API
 
@@ -89,15 +93,17 @@ public String deleteUser(@PathVariable int id) {
 
 ✅ PathVariable
 @GetMapping("/users/{id}")
-public String getUser(@PathVariable int id)
+public String getUser(@PathVariable int id) {
+}
 
-👉 /users/10
+👉 URL: /users/10
 
 ✅ RequestParam
 @GetMapping("/users")
-public String getUser(@RequestParam String name)
+public String getUser(@RequestParam String name) {
+}
 
-👉 /users?name=John
+👉 URL: /users?name=John
 
 🔹 10. RequestBody (IMPORTANT)
 
@@ -114,6 +120,7 @@ public User createUser(@RequestBody User user) {
 public ResponseEntity<String> getUser() {
     return ResponseEntity.ok("Success");
 }
+
 
 🔹 12. HTTP Status Codes
 
