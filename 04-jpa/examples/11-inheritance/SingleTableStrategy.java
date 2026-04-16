@@ -1,0 +1,1 @@
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)

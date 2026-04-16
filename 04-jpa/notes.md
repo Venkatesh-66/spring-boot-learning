@@ -30,13 +30,15 @@ ORM is a technique used to map Java objects to database tables.
 ## 🔹 3. JPA Architecture
 
 ```
-Application
+Application (your service code)
    ↓
-EntityManager
+Repository (Spring Data JPA)
+   ↓
+EntityManager (hidden)
    ↓
 Persistence Context
    ↓
-JPA Provider (e.g., Hibernate)
+Hibernate
    ↓
 Database
 ```

@@ -1,0 +1,1 @@
+List<User> findAll(Sort.by("name"));
