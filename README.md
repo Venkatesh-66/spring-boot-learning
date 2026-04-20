@@ -1,9 +1,5 @@
 ## spring-boot-learning
 
-- Basics
-  1. DIIOC
-  2. REST API
-
 Learning and mastering Spring Boot from basics to advanced with notes and hands-on projects.
 
 spring-boot-mastery/
