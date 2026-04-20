@@ -1,5 +1,7 @@
 # spring-boot-learning
 
+- Basics
+
 Learning and mastering Spring Boot from basics to advanced with notes and hands-on projects.
 
 spring-boot-mastery/
