@@ -1,0 +1,6 @@
+## Constraints
+
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- NOT NULL
