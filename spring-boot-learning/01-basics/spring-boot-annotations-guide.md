@@ -205,6 +205,32 @@ Spring calls the method when creating the bean and manages the returned object.
 | Spring discovers the class through component scanning | A configuration method explicitly provides the object |
 | Useful for classes you control | Useful for third-party objects or explicit setup |
 
+
+Here is the Markdown content in the same format, ready to add to your existing `.md` file.
+
+### 1. `@Component` என்றால் என்ன?
+
+ஒரு class-ஐ Spring தானாகக் கண்டுபிடித்து object create செய்து manage செய்யச் சொல்வதற்கு `@Component` பயன்படுத்துகிறோம்.
+
+
+@Component
+public class EmailService {
+
+}
+
+
+இங்கே என்ன நடக்கும்?
+
+- Spring இந்த class-ஐ கண்டுபிடிக்கும்.
+- Object create செய்யும்.
+- அந்த object-ஐ manage செய்யும்.
+
+**நினைவில் வைத்துக்கொள்ளுங்கள்:** `@Component` → Class-க்கு போடுவது.
+
+### 2. `@Bean` என்றால் என்ன?
+
+ஒரு method return செய்யும் object-ஐ Spring manage செய்ய
+
 ## `@Scope`
 
 **Simple meaning:** “Define how Spring creates and reuses this bean.”
