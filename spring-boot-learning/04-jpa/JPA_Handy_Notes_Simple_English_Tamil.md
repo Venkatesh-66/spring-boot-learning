@@ -13,6 +13,10 @@ It provides annotations and interfaces such as `@Entity`, `@Id`, and `EntityMana
 **தமிழில்:**
 JPA என்பது Java-வில் உள்ள ஒரு standard/rule book மாதிரி. Java object-ஐ database table-உடன் connect செய்வது மற்றும் database operations செய்வது எப்படி என்பதை இது define செய்கிறது. Hibernate என்பது அந்த rules-ஐ follow செய்து வேலை செய்யும் ஒரு implementation.
 
+**Simple-ஆ சொல்லணும்னா:**
+
+JPA என்பது Java object-ல இருக்கிற data-வை Database-ல் save பண்ணவும், Database-ல இருக்கிற data-வை Java object-ஆக எடுக்கவும் உதவும் ஒரு standard.
+
 > Easy to remember: **JPA = Rules; Hibernate = Implements those rules.**
 
 ## 2. Why do we need JPA?
@@ -150,3 +154,10 @@ JPA detects changes made to managed entities and synchronizes them with the data
 4. **`@Entity` and `@Id`** – mark an entity and its primary key.
 5. **Spring Data JPA** – reduces repository boilerplate code.
 
+
+
+## Question: What is JPA and why is it called a specification?
+
+You can answer:
+
+"JPA stands for Java Persistence API. It is a Java specification that defines standard rules for mapping Java objects to database tables and performing database operations. It provides annotations and interfaces such as @Entity, @Id and EntityManager. Hibernate is one of the implementations of JPA."
